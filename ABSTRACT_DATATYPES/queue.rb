@@ -47,10 +47,7 @@ if __FILE__ == $0
 
     while true
         personGoingOut = myQueue.dequeue
-        if !personGoingOut 
-            break
-        else 
-            puts "#{personGoingOut.personalData["name"]} is leaving."
-        end    
+        break if !personGoingOut; 
+        puts "#{personGoingOut.personalData["name"]} is leaving."  
     end     
 end    
