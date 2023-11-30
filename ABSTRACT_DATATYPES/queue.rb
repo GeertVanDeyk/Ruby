@@ -6,7 +6,7 @@ class GVDQueue
     def initialize
         @data = [] # an array is used as the base for a Queue 
     end
-    def enqueue (element)
+    def enqueue element
         @data << element
     end
     def dequeue
@@ -17,8 +17,10 @@ class GVDQueue
     end     
 end
 
-class person
-    
+class Person
+     attr_accessor :personalData
+
+
     def initialize
         @personalData = {}  
     end
@@ -27,10 +29,15 @@ end
 
 
 if __FILE__ == $0
-    Person1 = person.new { name=>"Geert"}
-    Person2 = { name=>"Kathleen"}
-    Person3 = { name=>"Jens"}
-    Person4 = { name=>"Isaura"}
+    Person1 = Person.new
+    Person2 = Person.new
+    Person3 = Person.new
+    Person4 = Person.new
+    Person1.personalData["name"] = "Geert"
+    Person2.personalData["name"] = "Kathleen"
+    Person3.personalData["name"] = "Jens"
+    Person4.personalData["name"] = "Isaura"
+
     myQueue = GVDQueue.new
 
     myQueue.enqueue(Person2)    
@@ -39,11 +46,11 @@ if __FILE__ == $0
     myQueue.enqueue(Person1)
 
     while true
-        PersonGoingOut = myQueue.dequeue
-        if !PersonGoingOut 
+        personGoingOut = myQueue.dequeue
+        if !personGoingOut 
             break
         else 
-            puts "#{PersonGoingOut[name]} is leaving."
+            puts "#{personGoingOut.personalData["name"]} is leaving."
         end    
     end     
 end    
