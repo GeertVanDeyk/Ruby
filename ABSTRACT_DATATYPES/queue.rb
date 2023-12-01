@@ -28,10 +28,7 @@ if __FILE__ == $0
    
        private
        def self.setPersonId # This generates a running ID for the class person
-           if @personID.nil? 
-               @personID = 0
-           end    
-           return @personID +=1
+           @personID.nil? ? @personID = 1 : @personID +=1 # using the ternary operator here
        end
     end
 
