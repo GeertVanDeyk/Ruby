@@ -17,26 +17,24 @@ class GVDQueue
     end     
 end
 
-class Person
-     attr_accessor :personalData
-    def initialize()
-        @personalData = {}
-        @personalData["id"] = Person.setPersonId   
-    end
-
-    private
-    def self.setPersonId # This generates a running ID for the class person
-        if @personID.nil? 
-            @personID = 0
-        end    
-        return @personID +=1
-    end
-
-end
-
-
-
 if __FILE__ == $0
+
+    class Person
+        attr_accessor :personalData
+       def initialize()
+           @personalData = {}
+           @personalData["id"] = Person.setPersonId   
+       end
+   
+       private
+       def self.setPersonId # This generates a running ID for the class person
+           if @personID.nil? 
+               @personID = 0
+           end    
+           return @personID +=1
+       end
+    end
+
     Person1 = Person.new
     Person2 = Person.new
     Person3 = Person.new
