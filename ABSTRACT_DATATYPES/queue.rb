@@ -19,11 +19,19 @@ end
 
 class Person
      attr_accessor :personalData
-
-
-    def initialize
-        @personalData = {}  
+    def initialize()
+        @personalData = {}
+        @personalData["id"] = Person.setPersonId   
     end
+
+    private
+    def self.setPersonId # This generates a running ID for the class person
+        if @personID.nil? 
+            @personID = 0
+        end    
+        return @personID +=1
+    end
+
 end
 
 
@@ -39,7 +47,6 @@ if __FILE__ == $0
     Person4.personalData["name"] = "Isaura"
 
     myQueue = GVDQueue.new
-
     myQueue.enqueue(Person2)    
     myQueue.enqueue(Person4)
     myQueue.enqueue(Person3)
@@ -48,6 +55,6 @@ if __FILE__ == $0
     while true
         personGoingOut = myQueue.dequeue
         break if !personGoingOut; 
-        puts "#{personGoingOut.personalData["name"]} is leaving."  
+        puts "The person with ID #{personGoingOut.personalData["id"]} named #{personGoingOut.personalData["name"]} is leaving."  
     end     
 end    
