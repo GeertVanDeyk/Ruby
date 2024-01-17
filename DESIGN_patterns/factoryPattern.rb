@@ -6,7 +6,7 @@
 #but you don't want to expose 
 #the object creation logic to the client code.
 
-class VehicleFactory
+module VehicleFactory
     def self.create_vehicle(type)
       case type
       when :car
