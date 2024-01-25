@@ -1,6 +1,6 @@
 class Customer 
     attr_accessor :voornaam, :achternaam, :emailadres, :adres, :email, :bedrijfsnaam, :bedrijfsID
-    def initialize (voornaam:, achternaam:, adres:, emailadres:, bedrijfsnaam: "-" ,bedrijfsID: "-"  )
+    def initialize (voornaam:, achternaam:, adres: nil, emailadres:, bedrijfsnaam: "-" ,bedrijfsID: "-")
         @voornaam = voornaam
         @achternaam = achternaam
         @adres = adres
@@ -8,14 +8,15 @@ class Customer
         @bedrijfsnaam = bedrijfsnaam
         @bedrijfsID = bedrijfsID
     end
-  
+    
+    
     
     def to_s 
         puts("CUSTOMER OVERVIEW")
         puts("-----------------")
         puts("voornaam = " + voornaam)
         puts("achternaam =" + achternaam)
-        puts("adres = " + adres)
+        puts("adres = " + adres.to_s)
         puts("emailadres = " + emailadres)
         puts("bedrijfsnaam = " + bedrijfsnaam)
         puts("bedrijfsID = " + bedrijfsID)

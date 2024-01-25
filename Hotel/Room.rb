@@ -1,10 +1,11 @@
 class Room
-    attr_accessor :kamernummer, :kamertype, :kamerstatus , :kamernaam
-    def initialize ( nummer:, type: "onbekend", status: "onbekend", naam: "-")
+    attr_accessor :kamernummer, :kamertype, :kamerstatus , :kamernaam, :status_op_datum
+    def initialize ( nummer:, type: "onbekend", status: "onbekend", naam: "-", status_op_datum: {})
         @kamernummer = nummer
         @kamerstatus = status
         @kamertype = type
         @kamernaam = naam
+        @status_op_datum = status_op_datum
     end
 
     def to_s
@@ -14,6 +15,7 @@ class Room
         puts("kamernaam = " + kamernaam)
         puts("kamertype = " + kamertype)
         puts("status = " + kamerstatus )
+        puts("status op datum = " + status_op_datum.to_s )
     end 
 
 
