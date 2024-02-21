@@ -1,0 +1,11 @@
+require 'nokogiri'
+require 'open-uri'
+
+doc = Nokogiri.XML("my_xml.xml")
+schemata_by_ns = Hash[ doc.root['schemaLocation'].scan(/(\S+)\s+(\S+)/) ]
+schemata_by_ns.each do |ns,xsd_uri|
+  xsd = Nokogiri::XML.Schema(open(xsd_uri))
+  xsd.validate(doc).each do |error|
+    puts error.message
+  end
+end

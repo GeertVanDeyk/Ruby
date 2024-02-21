@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>502628344</cbc:ID>
+<cbc:IssueDate>2021-01-26</cbc:IssueDate>
+<cbc:DueDate>2021-02-25</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>SEK</cbc:DocumentCurrencyCode>
+<cbc:AccountingCost>447948566</cbc:AccountingCost>
+<cbc:BuyerReference>151788</cbc:BuyerReference>
+<cac:OrderReference>
+<cbc:ID>115846170</cbc:ID>
+</cac:OrderReference>
+<cac:BillingReference>
+<cac:InvoiceDocumentReference>
+<cbc:ID>380</cbc:ID>
+</cac:InvoiceDocumentReference>
+</cac:BillingReference>
+<cac:AdditionalDocumentReference>
+<cbc:ID>50050262834447</cbc:ID>
+</cac:AdditionalDocumentReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="0007">5560069980</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>Carlsberg Sverige AB</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>Box 164</cbc:StreetName>
+<cbc:CityName>Falkenberg</cbc:CityName>
+<cbc:PostalZone>311 22</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>SE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>SE556006998001</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>Carlsberg Sverige AB</cbc:RegistrationName>
+<cbc:CompanyID schemeID="0007">5560069980</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="0007">2321000255</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>Region Skåne</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>SKÅNE LÄNS LANDSTING</cbc:StreetName>
+<cbc:CityName>KRISTIANSTAD</cbc:CityName>
+<cbc:PostalZone>291 89</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>SE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>SE232100025501</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>Region Skåne</cbc:RegistrationName>
+<cbc:CompanyID schemeID="0007">2321000255</cbc:CompanyID>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:Delivery>
+<cbc:ActualDeliveryDate>2021-01-26</cbc:ActualDeliveryDate>
+<cac:DeliveryLocation>
+<cac:Address>
+<cbc:StreetName>SÖDRA VALLGATAN</cbc:StreetName>
+<cbc:CityName>HELSINGBORG</cbc:CityName>
+<cbc:PostalZone>251 87</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>SE</cbc:IdentificationCode>
+</cac:Country>
+</cac:Address>
+</cac:DeliveryLocation>
+<cac:DeliveryParty>
+<cac:PartyName>
+<cbc:Name>HELSINGBORG LASARETT CENTRALKÖK</cbc:Name>
+</cac:PartyName>
+</cac:DeliveryParty>
+</cac:Delivery>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>50050262834447</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>604200024091</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>NDEASESS</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>50050262834447</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>SE6395000099604200024091</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>NDEASESS</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>50050262834447</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>7001613</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>SE:BANKGIRO</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>50050262834447</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>24091</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>SE:PLUSGIRO</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:PaymentTerms>
+<cbc:Note>0030</cbc:Note>
+</cac:PaymentTerms>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="SEK">989.18</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="SEK">160.00</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="SEK">40.00</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>25</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="SEK">7909.82</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="SEK">949.18</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="SEK">8069.82</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="SEK">8069.82</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="SEK">9059.00</cbc:TaxInclusiveAmount>
+<cbc:PayableAmount currencyID="SEK">9059.00</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">35</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">1924.65</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000010</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>RAMLÖSA CITRUS                 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>21544</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">54.99</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>2</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">700</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">350.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000011</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>FLASKA 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328877</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">0.50</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>3</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">35</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">700.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000012</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>TOMBACK 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328880</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">20.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>4</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">549.90</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000020</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>PRIPPS BLÅ 2,2%                33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>21534</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">54.99</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>5</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">200</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">100.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000021</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>FLASKA 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328877</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">0.50</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>6</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">200.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000022</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>TOMBACK 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328880</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">20.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>7</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">45</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">2474.55</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000030</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>RAMLÖSA ORIGINAL               33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>21536</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">54.99</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>8</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">900</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">450.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000031</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>FLASKA 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328877</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">0.50</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>9</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">45</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">900.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000032</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>TOMBACK 33R</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328880</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">20.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">2</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">218.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000040</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>PEPSI MAX                      50PET</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>21559</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">109.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>11</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">48</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">42.72</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000041</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>PET FLASKA 1KR</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>328886</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>12</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">0.89</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>12</cbc:ID>
+<cbc:InvoicedQuantity unitCode="EA">2</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="SEK">160.00</cbc:LineExtensionAmount>
+<cbc:AccountingCost>151788</cbc:AccountingCost>
+<cac:OrderLineReference>
+<cbc:LineID>000050</cbc:LineID>
+</cac:OrderLineReference>
+<cac:Item>
+<cbc:Name>EUROPAPALLE 4 VEJS 1200X800X144</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>300040</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>25</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="SEK">80.00</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

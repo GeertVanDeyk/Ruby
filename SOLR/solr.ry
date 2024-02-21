@@ -1,0 +1,10 @@
+require 'net/http'
+
+h = Net::HTTP.new('localhost',135 )
+
+http_response = h.get('/solr/techproducts/select?q=iPod&wt=ruby')
+rsp = eval(http_response.body)
+
+puts 'number of matches = ' + rsp['response']['numFound'].to_s
+#print out the name field for each returned document
+rsp['response']['docs'].each { |doc| puts 'name field = ' + doc['name'] }
